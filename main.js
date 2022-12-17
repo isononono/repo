@@ -23,6 +23,6 @@ async function main() {
     } else {
       await port1.write(0);
     }
-    await sleep(500);
+    await sleep(1000);
   }
 }
